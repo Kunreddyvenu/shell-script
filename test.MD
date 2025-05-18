@@ -16,7 +16,7 @@ git commit -m "why you commited this"
 * Push the chnages to Github/Central repo
 
 '''
-git push -u orgin main
+git push -u origin main
 '''
 
 **naming convention: use small cases with Hyphon(-). No spaces**
