@@ -7,7 +7,7 @@ Movies=("RRR" "DjTillu" "Murari")
 # index are 0123.. like that
 echo "first movie is: ${Movies[0]}"
 
-echo "second movie is: ${Movies(1)}"
+echo "second movie is: ${Movies[1]}"
 
-echo "second movie is: ${Movies(2)}"
+echo "third movie is: ${Movies[2]}"
 
