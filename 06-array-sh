@@ -1,0 +1,13 @@
+#!bin/bash
+Movies=("RRR" "DjTillu" "Murari")
+# above list values always start with 0123.. like that here RRR is 1
+
+# size of above array is 3
+
+# index are 0123.. like that
+echo "first movie is: ${Movies[0]}"
+
+echo "second movie is: ${Movies(1)}"
+
+echo "second movie is: ${Movies(2)}"
+
