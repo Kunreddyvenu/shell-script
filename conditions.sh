@@ -1,12 +1,14 @@
 #!/bin/bash
+
 Number=$1
 
-if [ $Number-gt 10]; 
+if [ $Number-gt 10]
 then
-echo "Given number $Number is greater than 10"
+   
+   echo "Given number $Number is greater than 10"
 
 else
 
-echo "Given number is $Number is lower than 10"
+   echo "Given number is $Number is lower than 10"
     
 fi
