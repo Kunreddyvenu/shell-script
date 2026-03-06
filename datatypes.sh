@@ -1,6 +1,6 @@
 #!/bin/bash
 
-N01=$1
+No1=$1
 No2=$2
 
 sum=$(($No1+$No2))
