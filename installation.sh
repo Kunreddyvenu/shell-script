@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if [$USERID -ne 0]
+if [ $USERID -ne 0]
 
 then
 
@@ -13,6 +13,6 @@ then
 
   fi
 
-dnf install mysql-server -y
+dnf install mysql -y
 
 echo "why did you not stop above"
