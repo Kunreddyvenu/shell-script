@@ -15,4 +15,14 @@ then
 
 dnf install mysql -y
 
+if [ $USERID -ne 0 ]
+
+then 
+   echo "installation of my sql failure"
+   exit 1
+
+   fi
+
+   dnf install git -y
+
 echo "why did you not stop above"
