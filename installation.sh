@@ -13,3 +13,5 @@ then
   fi
 
 dnf install mysql-server -y
+
+echo "why did you not stop above"
