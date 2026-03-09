@@ -13,9 +13,9 @@ then
 
   fi
 
-dnf install mysql -y
+dnf install mysqll -y
 
-if [ $USERID -ne 0 ]
+if [ $? -ne 0 ]
 
 then 
    echo "installation of my sql failure"
