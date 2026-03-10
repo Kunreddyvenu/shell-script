@@ -6,7 +6,7 @@ then
    exit 1 # manually we off the script process if we initiate exit 1
 else
    echo "you are a super user"
-if
+fi
 dnf install mysql -y
 
 if [ $? -ne 0 ]
