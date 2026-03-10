@@ -1,6 +1,6 @@
-USERID=$( id -u )
+USERID=$(id -u)
 
-if [ $USERID -ne 0]
+if [ $USERID -ne 0 ]
 then
    echo "pleae run the script with super user"
    exit 1 # manually we off the script process if we initiate exit 1
