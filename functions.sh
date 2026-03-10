@@ -22,3 +22,6 @@ VALIDATE $? "installaing my sql"
 
 dnf install git -y
 VALIDATE $? "installing git"
+
+dnf install nginx -y
+VALIDATE $? "installing nginx"
