@@ -28,8 +28,7 @@ else
    echo "installation of git success"
    exit 1
 fi
-
-echo "is script proceeding ?"
+ echo "is script proceeding?"
 
 
 
