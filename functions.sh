@@ -20,11 +20,11 @@ then
 else
    echo "you are a super user"
 fi
-dnf install mysql -y
+dnf install mysql -y &>>$LOGFILE
 VALIDATE $? "installaing my sql"
 
-dnf install git -y
+dnf install git -y &>>$LOGFILE
 VALIDATE $? "installing git"
 
-dnf install nginx -y
+dnf install nginx -y &>>$LOGFILE
 VALIDATE $? "installing nginx"
